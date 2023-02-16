@@ -1,0 +1,10 @@
+logger:
+  redact:
+    fields:
+      - authorization
+      - token
+      - name
+      - address
+
+graphql:
+  playground: true
